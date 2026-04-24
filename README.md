@@ -24,6 +24,14 @@ This project provides an AI-powered solution that automatically reads medical do
 
 ---
 
+## 🎬 Promo Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=kquY12oEmgE">
+    <img src="https://img.shields.io/badge/Watch-Promo-red?style=for-the-badge&logo=youtube">
+  </a>
+</p>
+
 ## 🎯 Objectives
 
 - Extract key information from medical documents  
