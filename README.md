@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="MediClaimLOGO.png" width="150"/>
+</p>
+
+<h1 align="center">🏥 MediClaim AI System</h1>
+
+<p align="center">
+AI-powered system to automate medical insurance claim processing using OCR and FastAPI.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-Backend-green">
+  <img src="https://img.shields.io/badge/Frontend-Vite-blue">
+  <img src="https://img.shields.io/badge/AI-OCR-orange">
+</p>
 # AI-Based Medical Insurance Claims Extraction System
 
 ##  Overview
