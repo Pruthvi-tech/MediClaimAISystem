@@ -13,101 +13,60 @@ AI-powered system to automate medical insurance claim processing using OCR and F
   <img src="https://img.shields.io/badge/Frontend-Vite-blue">
   <img src="https://img.shields.io/badge/AI-OCR-orange">
 </p>
-# AI-Based Medical Insurance Claims Extraction System
-
-##  Overview
-
-In many small hospitals and clinics, medical insurance claims are still processed manually using handwritten documents. This often leads to delays, errors, and rejection of claims.
-
-This project presents a simple AI-powered solution that can automatically read medical documents, extract important details, and assist in faster claim processing.
 
 ---
 
-##  Objectives
+## 📌 Overview
 
-*  Extract key information from medical documents
-*  Reduce manual work in insurance claim processing
-*  Speed up claim approval time
-*  Minimize human errors
+In many small hospitals and clinics, medical insurance claims are still processed manually using handwritten documents. This leads to delays, errors, and claim rejections.
 
----
-
-##  Features
-
-*  AI-based text extraction from documents
-*  Automatic data processing and classification
-*  Identification of patient details, diagnosis, and billing
-*  Easy-to-use interface for small clinics
-*  Supports scanned documents and images
+This project provides an AI-powered solution that automatically reads medical documents, extracts key information, and helps speed up the insurance claim process.
 
 ---
 
-##  Technologies Used
+## 🎯 Objectives
 
-* Python
-* Machine Learning
-* Natural Language Processing (NLP)
-* OCR (Optical Character Recognition)
-* TensorFlow / Scikit-learn
-
----
-
-##  System Workflow
-
-1. Upload medical document (image/PDF)
-2. Extract text using OCR
-3. Process and clean the data
-4. Identify important fields (name, disease, cost, etc.)
-5. Generate structured output
-6. Assist in claim approval decision
+- Extract key information from medical documents  
+- Reduce manual work in insurance claim processing  
+- Speed up claim approval time  
+- Minimize human errors  
 
 ---
 
-##  Example Use Case
+## 🚀 Features
 
-A rural hospital uploads a handwritten medical bill.
-The system extracts:
-
-* Patient Name
-* Treatment Details
-* Total Cost
-
-Based on this, the system helps in deciding whether the claim can be approved or not.
+- AI-based text extraction from documents  
+- Automatic data processing and classification  
+- Identification of patient details, diagnosis, and billing  
+- Easy-to-use interface for small clinics  
+- Supports scanned documents and images  
+- OTP-based authentication (User & Admin)  
 
 ---
 
-##  Advantages
+## 🛠️ Technologies Used
 
-* Reduces paperwork
-* Saves time for hospital staff
-* Improves claim accuracy
-* Useful for rural healthcare systems
-
----
-
-##  Limitations
-
-* Accuracy depends on document quality
-* Requires training for better performance
-* May struggle with unclear handwriting
+- Python  
+- FastAPI  
+- Machine Learning  
+- Natural Language Processing (NLP)  
+- OCR (Optical Character Recognition)  
+- Vite (Frontend)  
 
 ---
 
-##  Future Enhancements
+## 📊 Weekly Reports
 
-* Integration with hospital management systems
-* Real-time claim approval system
-* Mobile app support
-* Improved handwriting recognition
+- [Week 1](Weekly-Reports/week-1.md)
+- [Week 2](Weekly-Reports/week-2.md)
+- [Week 3](Weekly-Reports/Week3_Report.md)
+- [Week 4](Weekly-Reports/Week4_Report.md)
+- [Week 5](Weekly-Reports/week-5.md)
 
----
+## ⚙️ How to Run
 
-##  Author
-
-Developed as part of an academic mini-project.
-
----
-
-##  Conclusion
-
-This project demonstrates how AI can simplify and improve the traditional medical insurance claim process, especially in areas where digital infrastructure is limited.
+### Backend:
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
