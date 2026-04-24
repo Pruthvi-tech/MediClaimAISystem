@@ -2,7 +2,7 @@
   <img src="MediClaimLOGO.png" width="150"/>
 </p>
 
-<h1 align="center">🏥 MediClaim AI System</h1>
+<h1 align="center"> MediClaim AI System</h1>
 
 <p align="center">
 AI-powered system to automate medical insurance claim processing using OCR and FastAPI.
