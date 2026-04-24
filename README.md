@@ -63,6 +63,18 @@ This project provides an AI-powered solution that automatically reads medical do
 - [Week 4](Weekly-Reports/Week4_Report.md)
 - [Week 5](Weekly-Reports/week-5.md)
 
+---
+
+## 🔄 System Flow
+
+1. User uploads medical document  
+2. OCR extracts text  
+3. AI processes and identifies key data  
+4. Backend (FastAPI) processes request  
+5. Output displayed on frontend
+
+---
+
 ## ⚙️ How to Run
 
 ### Backend:
